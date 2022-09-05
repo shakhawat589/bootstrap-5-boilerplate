@@ -1,5 +1,4 @@
-// Import all of Bootstrap's CSS
-@import "~bootstrap/scss/bootstrap";
+@use 'base';
 
-
-// @import "~bootstrap-icons/font/bootstrap-icons.scss";
+// import pages
+@use './pages/homepage';
